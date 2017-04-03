@@ -1,0 +1,706 @@
+
+/*整体页面*/
+body{
+	margin:0;
+	background-color:#F1F2F6;
+}
+/*头部*/
+#header{
+	margin:0 auto;
+	width:100%;
+}
+/*头部主导航条*/
+#header>#nav{
+	height:24px;
+	background-color:#E6E9EE;
+}
+#header>#nav>#navbox{
+	width:960px;
+	margin:0 auto;
+	font-size:12px;
+	line-height:24px;	
+}
+#navbox>#navleft{
+	float:left;
+}
+#navbox>#navright{
+	float:right;
+}
+
+#nav a{
+	color:#7C869F;
+	text-decoration:none;
+}
+#nav a:hover{
+	text-decoration:underline;
+}
+
+/*头部logo条*/
+#logo{
+	width:960px;
+	height:82px;
+	background-color:#F1F2F6;
+	margin:0 auto;
+
+}
+
+/*未登陆信息*/
+#login{
+	padding:20px 0 0 0;
+	float:right;
+	width:310px;
+	height:50px;
+	font-size:12px;
+	line-height:20px;"
+	
+}
+#login a{
+	color:black;
+	text-decoration:none;
+}
+#login table{
+	width:310px;
+	height:50px;
+	
+}
+/*已登录信息*/
+#logined{
+	padding:20px 0 0 0;
+	float:right;
+	width:200px;
+	height:50px;
+	font-size:12px;
+	line-height:20px;"
+}
+#logined table{
+	width:200px;
+	height:50px;
+	
+}
+#logined a{
+	color:#000;
+	text-decoration:none;
+}
+#logined a:hover{
+	text-decoration:underline;
+}
+/*头部次导航条*/
+#header>#subnav{
+	height:48px;
+	background-color:#075991;
+	
+}
+#subnav>#subnavbox {
+	width:960px;
+	margin:0 auto;
+	font-size:16px;
+	line-height:48px;	
+	
+}
+#subnavbox> #subnav-list{
+	float:left;
+	width:960px;
+
+}
+#subnav-list>ul{
+	margin:0;
+	padding:0;
+	float:left;
+}
+#subnav-list>ul>li{
+	padding:0 14px 0 0;
+	line-height:48px;
+	float:left;
+	list-style-type:none;
+	font-size:16px;
+	font-family:微软雅黑;
+	
+}
+
+#subnav li>a{
+	color:#EFFFFF;
+	text-decoration:none;
+	
+}
+#subnav li>a:hover{
+	color:yellow;
+}
+/*主体*/
+#main{
+	margin: 0 auto;
+	width:960px;
+	
+}
+
+/*banner*/
+/*主页面的css*/
+#main>#banner{
+	margin:12px auto;
+	height:330px;
+	
+
+}
+
+#banner>#training{
+	margin:0 4px 0 0;
+	width:594px;
+	height:330px;
+	float:left;
+}
+#banner>#schoolhistory{
+	margin:0 4px 4px 6px;
+	width:173px;
+	height:189px;
+	
+	float:left;
+}
+#banner>#wechat{
+	margin:6px 0 0 4px;
+	width:173px;
+	height:187px;
+	
+	float:right;
+}
+#banner>#freefile{
+	margin:6px 6px 0 4px;
+	width:173px;
+	height:125px;
+	
+	float:right;
+}
+#banner>#qq{
+	margin:0 0 4px 6px;
+	width:173px;
+	height:127px;
+	
+	float:left;
+}
+
+
+/*两个讨论区主体*/
+#main>#discuss{
+	width:960px;
+	height:260px;
+	
+}
+
+#main #discuss1{
+	margin: 12px auto;
+	
+}
+
+/*讨论区和友情链接的导航条*/
+.discussnav, .partnernav{
+	height:41px;
+	width:960px;
+	background-color:white;
+	margin:0 0 1px 0;
+	border-radius:10px 10px 0 0;
+	background-image:url('../images/h.png');
+}
+
+/*讨论区导航条的名字*/
+.discussnav-name{
+	width:900px;
+	height:42px;
+	line-height:42px;
+	font-size:16px;
+	font-weight:bold;
+	position:relative;
+	left:41px;
+}
+/*讨论区内容列表的主体*/
+.discusscontent{
+	width:960px;
+	height:176px;
+	background-color:white;
+}
+
+.discusscontent a{
+	text-decoration:none;
+	color:black;
+	
+}
+/*讨论区内容列表的图标主体*/
+.discuss-content-image{
+	width:58px;
+	height:58px;
+	
+}
+/*讨论区内容的列表的详细信息*/
+.discuss-centent-info{
+	float:left; 
+	width:200px; 
+	height:58px;
+	margin:12px 12px 12px 0px;
+	font-size:12px;	
+}
+/*讨论区内容的列表的主体 php java等*/
+.dicuss-content-info-theme{
+	height:21px;
+	margin:0;
+	color:#1E6DB0;
+	font-weight:bold;
+	font-size:14px;
+}
+/*讨论区内容列表的图标盒子*/
+.discuss-content-logo{
+	float:left;
+	margin:12px 12px 0px 0px;
+	
+}
+/*讨论区内容列表的细节*/
+.dicuss-content-info-detail{
+	margin:0;
+}
+.discuss-centent-info>div,p{
+	height:21px;
+}
+.discuss-centent-info a:hover{
+	text-decoration:underline;
+}
+table{
+	width:936px;
+	height:166px;
+	margin:0 auto;
+	
+}
+/*主页面的css结束*/
+/*论坛发表的主体css开始*/
+#post-main{
+	width:960px;
+	height:590px;
+	margin:0 auto;
+}
+#breadcrumb{
+	height:52px;	
+}
+#breadcrumb a{
+	line-height:52px;
+	font-size:14px;
+	text-decoration:none;
+	color:#000;
+}
+#breadcrumb a:hover{
+	text-decoration:underline;
+}
+#dis-content{
+	height:536px;
+	background:#fff;
+	border-top:solid 2px #888888;
+}
+#dis-content-info{
+	height:90px;	
+}
+#dis-content-search{
+	height:40px;
+	margin:0 12px;
+	border-bottom:1px #888 dotted;	
+}
+#dis-content-main{
+	height:388px;
+}
+#dis-content-info>p{
+	margin:4px 20px;
+	font-weight:bold;
+}
+#dis-content-info table{
+	font-size:14px;
+	color:#666666;
+	height:60px;
+	padding:0;
+}
+#dis-content-info  tr {
+	padding:0;
+	height:50px;
+}
+#dis-content-info  td {
+	height:50px;
+	padding:0 4px;
+}
+#dis-content-info td p{
+	margin:6px 10px;
+}
+/*查询帖子*/
+#dis-content-search form{
+	
+	line-height:32px;
+	font-size:12px;
+}
+/*查询帖子结束*/
+/*帖子列表主体开始*/
+/* 翻页功能 */
+.dis-content-main-page{
+	height:46px;
+}
+.dis-content-main-page  a{
+	text-decoration:none;
+	background:#F9F9F9;
+	line-height:16px;
+	padding:4px 8px;
+	display:block;
+	float:left;
+	margin:12px 14px;
+	font-size:12px;
+	color:#444;
+	
+}
+.dis-content-main-page button{
+	margin:10px 14px;
+	float:right;
+}
+.dis-content-main-page >a:hover{
+	background:#72B0D7;
+}
+.dis-content-main-list{
+	height:284px;
+}
+.dis-content-main-list p{
+	color:#888;
+}
+
+.dis-content-main-list a{
+	text-decoration:none;
+	color:#444;
+}
+.dis-content-main-list a:hover{
+	text-decoration:underline;
+}
+.dis-content-main-list p{
+	margin:0;
+}
+.dis-content-main-th{
+	padding:5px;
+}
+.dis-content-main-img{
+	padding:0;
+	width:80px;
+	border-bottom:dotted 1px #888;
+}
+.dis-content-main-subject{
+	width:480px;
+	height:14px;
+	font-size:14px;
+	color:#000;
+	padding:5px;
+	border-bottom:dotted 1px #888;
+	
+}
+.dis-content-main-author{
+	width:100px;
+	font-size:12px;
+	color:#000;
+	padding:5px 0;
+	border-bottom:dotted 1px #888;
+}
+.dis-content-main-reply{
+	width:100px;
+	font-size:14px;
+	color:#000;
+	padding:5px 0;
+	border-bottom:dotted 1px #888;
+}
+.dis-content-main-lastuser{
+	width:200px;
+	font-size:12px;
+	color:#000;
+	padding:5px 0;
+	border-bottom:dotted 1px #888;
+}
+
+/*帖子列表主体结束*/
+
+/*论坛发表的主体css结束*/
+
+/*回复帖子开始*/
+#reply-main-notlogin{
+	width:960px;
+	height:6170px;
+	margin:0 auto;
+}
+#reply-main{
+	width:960px;
+	height:6614px;
+	margin:0 auto;	
+}
+.reply-main-content{
+	margin:10px 0;
+	border-top:2px solid #888;
+	height:6000px;
+}
+.dis-content-main-page{
+	width:960px;
+	height:50px;
+	background:#fff;
+}
+.reply-main-content-list{
+	width:960px;
+	height:50px;
+	background:#F7F7F7;
+}
+.reply-main-content-list table{
+	width:960px;
+	height:50px;
+}
+.reply-main-content-list td{
+	border-bottom:1px dotted #ccc;
+	
+}
+.reply-main-content-list p{
+	margin:0;
+	text-align:center;
+	font-size:14px;
+}
+.reply-main-content-list b{
+	font-size:16px ;
+	color:#075991;
+}
+.reply-main-content-box{
+	border-top:1px solid #ccc;
+	width:960px;
+	height:540px;
+}
+.reply-main-content-list-left{
+	width:196px;
+	height:540px;
+	background:#F7F7F7;
+	float:left;
+}
+.reply-main-content-list-left p {
+	margin:10px 0;
+	font-size:14px;
+	text-align:center;
+}
+.reply-main-content-list-left a {
+	display:block;
+	margin:10px 0 10px 10px;
+	font-size:14px;
+	color:#000;
+	text-decoration:none;
+}
+.reply-main-content-list-left a:hover{
+	text-decoration:underline;
+}
+.reply-main-content-list-right{
+	width:760px;
+	height:540px;
+	background:#fff;
+	float:left;
+}
+.reply-main-content-list-right-top{
+	width:760px;
+	height:42px;
+	margin-left:20px;
+	
+}
+.reply-main-content-list-right-center{
+	width:720px;
+	height:450px;
+	margin:0 auto;
+	border-top:1px dotted #888;
+}
+.reply-main-content-list-right  p{
+	text-align:left;
+	margin:10px;
+}
+.reply-main-content-list-right  a{
+	text-decoration:none;
+	font-size:12px;
+	color:#FF6600;
+	font-weight:bold;
+}
+.reply-main-content-list-right  a:hover{
+	text-decoration:underline;
+}
+.reply-main-content-list-right span{
+	font-size:12px;
+	line-height:42px;
+}
+.reply-main-content-list-right-bottom{
+	width:760px;
+	height:48px;
+}
+.reply-main-textarea{
+	width:960px;
+	height:430px;
+	background:#fff;
+	border:1px solid #ccc;
+	margin-bottom:10px;
+}
+#reply-main-textarea{
+	width:750px;
+	height:350px;
+	margin:0 auto;
+	padding:20px;
+}
+
+/*回复帖子结束*/
+/*修改密码页面开始*/
+#password-change{
+	width:960px;
+	height:550px;
+	margin:0 auto;
+}
+.password-change-main{
+	width:960px;
+	height:500px;
+	background:#fff;
+}
+.password-change-main-left{
+	width:184px;
+	height:300px;
+	
+	float:left;
+	margin:100px 0 0 20px;
+	border-right:1px #888 dotted;
+	
+	
+}
+.password-change-main-left-box{
+	margin:80px 10px ;
+}
+
+
+.password-change-main-left-box a{
+	display:block;
+	margin:30px 0 30px 60px;
+	text-decoration:none;
+	font-size:14px;
+	color:#075991;
+}
+.password-change-main-left-box a:hover{
+	text-decoration:underline;
+}
+.password-change-main-right{
+	width:340px;
+	height:170px;
+	float:left;
+	margin:170px 0 0 160px;
+}
+
+/*修改密码页面结束*/
+
+/*友情链接*/
+
+.partnercontent{
+	height:84px;
+	background-color:white;
+	width:960px;
+}
+.partnerlist{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.partnerlist>li{
+	float:left;
+	font-size:12px;
+	margin:12px;
+	
+}
+.partnercontent a{
+	text-decoration:none;
+	color:black;
+}
+/* 注册页面开始 */
+#register{
+	width:960px;
+	height:530px;
+	background:#fff;
+	margin:10px auto 0;
+	border-top:2px solid #888888;
+}
+#register-nav{
+	width:910px;
+	height:18px;
+	margin:14px auto 0;
+	padding-bottom:6px;
+	font-size:18px;
+	color:#666666;
+	border-bottom:2px solid #D8D8D8; 
+}
+
+#register-main{
+	width:910px;
+	height:450px;
+	margin:12px auto 0;
+}
+#register-form{
+	width:560px;
+	height:400px;
+	float:left;
+	
+}
+#register-notice{
+	width:490px;
+	height:20px;
+	padding:8px 0 0 10px;
+	margin-bottom:50px;
+	font-size:12px;
+	background:#FFFAE1;
+}
+#register-form dl{
+	width:550px;
+	height:20px;
+	display:block;
+	margin-top:40px;
+}
+#register-form dt{
+	float:left;
+	width:106px;
+	text-align:right;
+	margin-right:12px;
+	font-size:14px;
+}
+#register-form span{
+	color:red;
+	padding-left:4px;
+}
+#register-form dd{
+	float:left;
+	width:430px;
+	font-size:12px;
+}
+#register-form input{
+	width:284px;
+}
+dd #agree{
+	width:14px;
+}
+dd #submit{
+	width:52px;
+}
+#register-form a{
+	text-decoration:none;
+	color:#1E6DA5;
+	font-weight:bold;
+}
+#register-side{
+	width:300px;
+	height:120px;
+	float:left;
+	border-left:1px dotted #888;
+	margin-top:54px;
+	padding:30px 0 0 10px; 
+}
+/* 注册页面结束 */
+/*尾部*/
+#partner{
+	width:960px;
+	margin: 12px auto;
+}
+#partner a:hover{
+	text-decoration:underline;
+	
+}
+#footer{
+	margin:0 auto;
+	width:960px;
+	height:70px;
+	background-color:;
+}
+#footer>p{
+	text-align:center;
+	font-size:12px;
+	
+}
